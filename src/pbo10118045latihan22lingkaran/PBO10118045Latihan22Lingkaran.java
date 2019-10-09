@@ -27,7 +27,7 @@ public class PBO10118045Latihan22Lingkaran {
         System.out.print("Masukka nilai diameter lingkaran : ");
         Scanner Dm = new Scanner(System.in);
         int Diameter;
-        while(Dm.hasNextInt()){
+        while(!Dm.hasNextInt()){
             System.out.println("Nilai Diameter tidak Sesuai");
             System.out.println("");
             System.out.print("Masukkan nilai lingkaran : ");
